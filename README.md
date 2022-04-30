@@ -1,5 +1,7 @@
 # Image-to-ASCII-python
 
+My main motivation to do this project is so i can update my profile photo on codeforces or maybe also on Whatsapp!!!
+
 In this project i will try to make ascii art using images!!
 
 Currently what i have in mind is a program in which i give a image as input and it gives same image made with ascii charaters.
