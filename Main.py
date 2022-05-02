@@ -8,8 +8,13 @@ grey10="@%#*+=-:."
 
 #these gray scales would be used in making of ascii art
 
-im=Image.open("/Users/harshit/Downloads/talia.jpg")
+print("Please Enter the path of the photo")
 
-flip_im=im.transpose(Image.FLIP_LEFT_RIGHT)
+path=input()
 
-flip_im.save("/Users/harshit/Downloads/talia_new.jpg")
+im=Image.open(path).convert("L")
+
+im.show()
+
+
+
